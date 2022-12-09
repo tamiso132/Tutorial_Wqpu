@@ -3,19 +3,12 @@
 version = 3
 
 [[package]]
-<<<<<<< HEAD
-name = "Rust"
-version = "0.1.0"
-dependencies = [
- "env_logger",
-=======
 name = "Tutorial_Wqpu"
 version = "0.1.0"
 dependencies = [
  "bytemuck",
  "env_logger",
  "image",
->>>>>>> a91d4e42d152be297baef08850ca0a27f9a6c3ab
  "log",
  "pollster",
  "wgpu",

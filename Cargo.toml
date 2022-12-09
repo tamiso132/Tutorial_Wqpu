@@ -7,12 +7,6 @@ edition = "2021"
 
 [dependencies]
 winit = "0.27"
-<<<<<<< HEAD
-pollster = "0.2"
-env_logger = "0.9"
-log = "0.4"
-wgpu = "0.14"
-=======
 env_logger = "0.9"
 log = "0.4"
 wgpu = "0.14"
@@ -23,5 +17,4 @@ bytemuck = {version = "1.4", features = ["derive"]}
 version = "0.24"
 default-features = false
 features = ["png", "jpeg"]
->>>>>>> a91d4e42d152be297baef08850ca0a27f9a6c3ab
 
