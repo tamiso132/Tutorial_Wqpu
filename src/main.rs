@@ -1,11 +1,9 @@
-<<<<<<< HEAD
+#![allow(dead_code)]
+
 mod Test;
 use pollster;
-fn main() {
-    println!("Hello, world!");
-    pollster::block_on(Test::run());
-=======
-#![allow(dead_code)]
+
+
 mod test;
 
 use winit::{
@@ -82,5 +80,4 @@ fn main() {
         Test::String(a) => print!("{a}"),
         Test::Nothing => print!("Print Nothing!!!!"),
     }
->>>>>>> a91d4e42d152be297baef08850ca0a27f9a6c3ab
-}
+};
